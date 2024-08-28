@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, UnstructuredWordDocumentLoader
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_openai import OpenAI
