@@ -10,3 +10,4 @@ pypdf
 openpyxl
 unstructured
 python-docx
+tiktoken 
